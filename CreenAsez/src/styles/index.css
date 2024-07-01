@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #000001;
+}
+
+.cursor-custom {
+  cursor: none;
+  /* Oculta el cursor predeterminado */
+}
+
+body,
+a,
+button,
+input{
+  cursor: none;
+  /* Oculta el cursor predeterminado en estos elementos */
+}
+
+.cursor-pointer {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #2dd4bf;
+  /* Color por defecto */
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@media (max-width: 768px) {
+  .cursor-pointer {
+    display: none;
+  }
+}

@@ -90,12 +90,11 @@ const Header = () => {
                             </li>
                             <li>
                                 <div className="border-b border-white">
-                                    <a
-                                        href="#"
-                                        className="block py-2 pr-4 pl-3 text-gray-400 hover:text-teal-400 hover:-translate-y-0.5 transition ease-in duration-150 font-helvetica font-semibold"
-                                    >
-                                        Contact
-                                    </a>
+                                    <Link to='/contact' onClick={() => handleLinkClick('/contact')}>
+                                        <div className={`block py-2 pr-4 pl-3 ${isActive('/contact')} hover:text-teal-400 hover:-translate-y-0.5 transition ease-in duration-150 font-helvetica font-semibold`}>
+                                            Contact
+                                        </div>
+                                    </Link>
                                 </div>
                             </li>
                         </ul>
@@ -213,7 +212,7 @@ const Header = () => {
                     </Link>
                     <Link
                         to="/contact"
-                        className="block text-gray-400 hover:text-teal-400 text-lg mb-4"
+                        className={`block text-lg mb-4 ${isActive('/contact')}`}
                         onClick={toggleMenu}
                     >
                         Contact

@@ -21,18 +21,8 @@ const brand = () => {
                     a dirigir, escribir, filmar, editar y producir los videoclips en los proyectos en los que participa. Su trabajo ha inspirado y ha
                     atraído a una amplia audiencia de seguidores, alcanzando cientos de miles en diversas plataformas sociales. El contenido que
                     produce tiene un impacto viral y sigue expandiéndose.</p>
-                <div className='items-center justify-center flex mt-20' data-aos="fade-up" data-aos-duration="1000">
-                    <iframe
-                        className='md:w-1/2 md:h-96 w-full rounded-lg shadow-gray-800 shadow-xl transition-transform hover:scale-95 border border-gray-500'
-                        src="https://www.youtube.com/embed/xxk84iwQOIw?si=VgBzNC_MGxGiO_sY"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen>
-                    </iframe>
-                </div>
-
+                    <img src="./src/assets/images/creen/instagram.png" alt="creen-instagram" className='mt-20' data-aos="fade-up" data-aos-duration="1000" />
+                    
                 <p className='mt-20 text-lg underline italic font-black' data-aos="fade-up" data-aos-duration="1000">Abusadora Dance Video (Septiembre 2020) - Yago Roche</p>
                 <p className='mt-2 text-justify text-sm' data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi

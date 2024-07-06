@@ -49,7 +49,7 @@ const Inicio = () => {
                         anim id est laborum.
                     </p>
                 </div>
-                <h1 className='md:text-4xl text-base md:font-extrabold font-black items-center justify-center flex mt-36 underline' data-aos="fade-up" data-aos-duration="1000">COLABORACIONES CON ARTISTAS</h1>
+                <h1 className='md:text-4xl text-base md:font-extrabold font-black items-center justify-center flex mt-36' data-aos="fade-up" data-aos-duration="1000">COLABORACIONES CON ARTISTAS</h1>
                 <div className='flex md:flex-row gap-1 flex-col mt-10' data-aos="fade-up" data-aos-duration="1000">
                     <div className='relative w-full md:w-1/4'>
                         <img src="./src/assets/images/artistas/miko.png" alt="Young Miko" className='w-full rounded-lg transform transition-transform hover:scale-95' />

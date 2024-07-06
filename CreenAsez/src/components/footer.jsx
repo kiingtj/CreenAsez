@@ -40,7 +40,9 @@ const footer = () => {
                             </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">Contact</a>
+                            <Link to='/contact'>
+                                <div className="hover:underline">Contact</div>
+                            </Link>
                         </li>
                     </ul>
                     <a href="mailto:creenasez@gmail.com">creenasez@gmail.com</a>

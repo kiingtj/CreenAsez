@@ -15,7 +15,9 @@ body,
 a,
 button,
 input,
-video{
+video, 
+textarea,
+label{
   cursor: none;
   /* Oculta el cursor predeterminado en estos elementos */
 }

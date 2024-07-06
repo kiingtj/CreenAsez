@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const brand = () => {
+    document.title = 'CreenAsez - Brand';
 
     useEffect(() => {
         AOS.init();
@@ -208,6 +209,13 @@ const brand = () => {
                         allowFullScreen>
                     </iframe>
                 </div>
+                {/* 
+                <div className='items-center justify-center flex mt-20 gap-4' data-aos="fade-up" data-aos-duration="1000">
+                    <video src="./src/assets/videos/2024-07-01 11-50-02.mp4" autoPlay muted className='md:w-1/2 md:h-96 w-full rounded-lg shadow-gray-800 shadow-xl transition-transform hover:scale-95 border border-gray-500'>
+                        Tu navegador no admite el elemento <code>video</code>.
+                    </video>
+                </div>
+                */}
             </div>
             <Footer />
         </div>

@@ -15,10 +15,9 @@ const Inicio = () => {
             <Header />
             <div className='container mt-40 text-white mx-auto px-4'>
                 <div className='flex space-x-4'>
-                    <img src="./src/assets/images/creen/foto3.jpg" alt="imagen 3" className='w-1/2' />
-                    <img src="./src/assets/images/creen/foto4.jpg" alt="imagen 1" className='w-1/2' />
+                    <img src="./src/assets/images/banner/banner.jpg" alt="imagen 3" className='w-full' />
                 </div>
-                <h1 className='md:text-4xl text-base md:font-extrabold font-black items-center justify-center flex mt-20' data-aos="fade-up" data-aos-duration="1000">Descubre el Mundo Visual con CreenAsez</h1>
+                <h1 className='md:text-4xl text-3xl md:font-extrabold font-black items-center justify-center flex mt-20' data-aos="fade-up" data-aos-duration="1000">Descubre el Mundo Visual con CreenAsez</h1>
                 <p className='mt-20 text-justify text-sm' data-aos="fade-up" data-aos-duration="1000">Videoclips, Eventos Deportivos y Noches de Fiesta.
                     Sumérgete en la diversidad de videos creativos creados por <span className='italic font-bold'>Creen</span> desde Madrid.
                     Desde videoclips que dan vida a la música hasta la energía única de los DJ's en discotecas, cada proyecto captura momentos

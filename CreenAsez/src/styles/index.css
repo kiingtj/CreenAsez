@@ -14,7 +14,8 @@
 body,
 a,
 button,
-input{
+input,
+video{
   cursor: none;
   /* Oculta el cursor predeterminado en estos elementos */
 }

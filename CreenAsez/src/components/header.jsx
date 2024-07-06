@@ -81,12 +81,11 @@ const Header = () => {
                             </li>
                             <li>
                                 <div className="border-b border-white">
-                                    <a
-                                        href="#"
-                                        className="block py-2 pr-4 pl-3 text-gray-400 hover:text-teal-400 hover:-translate-y-0.5 transition ease-in duration-150 font-helvetica font-semibold"
-                                    >
-                                        Services
-                                    </a>
+                                    <Link to='/shop' onClick={() => handleLinkClick('/shop')}>
+                                        <div className={`block py-2 pr-4 pl-3 ${isActive('/shop')} hover:text-teal-400 hover:-translate-y-0.5 transition ease-in duration-150 font-helvetica font-semibold`}>
+                                            Shop
+                                        </div>
+                                    </Link>
                                 </div>
                             </li>
                             <li>
@@ -206,11 +205,11 @@ const Header = () => {
                         Brand
                     </Link>
                     <Link
-                        to="/services"
-                        className="block text-gray-400 hover:text-teal-400 text-lg mb-4"
+                        to="/shop"
+                        className={`block text-lg mb-4 ${isActive('/shop')}`}
                         onClick={toggleMenu}
                     >
-                        Services
+                        Shop
                     </Link>
                     <Link
                         to="/contact"
